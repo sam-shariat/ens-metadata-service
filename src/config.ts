@@ -1,7 +1,7 @@
 const path = require('path');
 require('dotenv').config();
 
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 3000;
 const HOST = process.env.HOST || 'localhost';
 const ENV = process.env.ENV || 'local'; // local/prod
 const REDIS_URL = process.env.REDIS_URL;
