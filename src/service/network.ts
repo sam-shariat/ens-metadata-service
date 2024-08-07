@@ -81,7 +81,7 @@ export default function getNetwork(network: NetworkName): {
         'https://api.studio.thegraph.com/query/49574/enssepolia/version/latest';
       break;
     case NETWORK.ARBITRUM_SEPOLIA:
-      SUBGRAPH_URL = `https://api.studio.thegraph.com/query/85626/monid/version/latest`;
+      SUBGRAPH_URL = `https://api.studio.thegraph.com/query/85626/monid/v0.0.1`;
         //SUBGRAPH_URL =`https://gateway-testnet-arbitrum.network.thegraph.com/api/${THE_GRAPH_API_KEY}/subgraphs/id/6rjKFCCHJuEiMPVXTLMxEemgdE6tPquhoAkmT3xbLA5X`;
         break;
     case NETWORK.MAINNET:
