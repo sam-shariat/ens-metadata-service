@@ -38,9 +38,9 @@
     "viem": "2.9.2"
   },
   "scripts": {
-    "build": "yarn appconfgen && tsc --project ./ && cpx 'src/assets/**' 'dist/assets'",
+    "build": "yarn appconfgen && tsc --project ./ && cpx 'src/assets/**' 'public/assets'",
     "dev": "ENV=local ts-node-dev --inspect -- src/index.ts",
-    "start": "node dist/index.js",
+    "start": "node src/index.ts",
     "deploy": "ENV=prod yarn build && gcloud app deploy --project=ens-metadata-service",
     "deploy:test": "ENV=prod yarn build && gcloud app deploy --no-promote --project=ens-metadata-service",
     "test": "ENV=local ava -v --serial --timeout=2m",
