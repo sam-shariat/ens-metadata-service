@@ -3,7 +3,7 @@
 coverage
 node_modules
 yarn-error.log
-dist/
+#dist/
 app.yaml
 yarn.lock
 package-lock.json
